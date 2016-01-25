@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		2FA15CBB1C55439300DC67EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA15CBA1C55439300DC67EE /* AppDelegate.swift */; };
-		2FA15CBD1C55439300DC67EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA15CBC1C55439300DC67EE /* ViewController.swift */; };
 		2FA15CC01C55439300DC67EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA15CBE1C55439300DC67EE /* Main.storyboard */; };
 		2FA15CC21C55439300DC67EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA15CC11C55439300DC67EE /* Assets.xcassets */; };
 		2FA15CC51C55439300DC67EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA15CC31C55439300DC67EE /* LaunchScreen.storyboard */; };
 		2FA15CD01C55439300DC67EE /* BMIcounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA15CCF1C55439300DC67EE /* BMIcounterTests.swift */; };
 		2FA15CDB1C55439300DC67EE /* BMIcounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA15CDA1C55439300DC67EE /* BMIcounterUITests.swift */; };
+		2FA15CFF1C5555C900DC67EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA15CFE1C5555C900DC67EE /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +34,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2FA15CB71C55439300DC67EE /* BMIcounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMIcounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA15CB71C55439300DC67EE /* BMIcalculater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMIcalculater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FA15CBA1C55439300DC67EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2FA15CBC1C55439300DC67EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2FA15CBF1C55439300DC67EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FA15CC11C55439300DC67EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FA15CC41C55439300DC67EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FA15CC61C55439300DC67EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2FA15CCB1C55439300DC67EE /* BMIcounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMIcounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA15CCB1C55439300DC67EE /* BMIcalculater.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMIcalculater.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FA15CCF1C55439300DC67EE /* BMIcounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIcounterTests.swift; sourceTree = "<group>"; };
 		2FA15CD11C55439300DC67EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2FA15CD61C55439300DC67EE /* BMIcounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMIcounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA15CD61C55439300DC67EE /* BMIcalculater.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMIcalculater.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FA15CDA1C55439300DC67EE /* BMIcounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIcounterUITests.swift; sourceTree = "<group>"; };
 		2FA15CDC1C55439300DC67EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FA15CFE1C5555C900DC67EE /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +87,9 @@
 		2FA15CB81C55439300DC67EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2FA15CB71C55439300DC67EE /* BMIcounter.app */,
-				2FA15CCB1C55439300DC67EE /* BMIcounterTests.xctest */,
-				2FA15CD61C55439300DC67EE /* BMIcounterUITests.xctest */,
+				2FA15CB71C55439300DC67EE /* BMIcalculater.app */,
+				2FA15CCB1C55439300DC67EE /* BMIcalculater.xctest */,
+				2FA15CD61C55439300DC67EE /* BMIcalculater.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,8 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				2FA15CBA1C55439300DC67EE /* AppDelegate.swift */,
-				2FA15CBC1C55439300DC67EE /* ViewController.swift */,
 				2FA15CBE1C55439300DC67EE /* Main.storyboard */,
+				2FA15CFE1C5555C900DC67EE /* ViewController.swift */,
 				2FA15CC11C55439300DC67EE /* Assets.xcassets */,
 				2FA15CC31C55439300DC67EE /* LaunchScreen.storyboard */,
 				2FA15CC61C55439300DC67EE /* Info.plist */,
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2FA15CB61C55439300DC67EE /* BMIcounter */ = {
+		2FA15CB61C55439300DC67EE /* BMIcalculater */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FA15CDF1C55439300DC67EE /* Build configuration list for PBXNativeTarget "BMIcounter" */;
+			buildConfigurationList = 2FA15CDF1C55439300DC67EE /* Build configuration list for PBXNativeTarget "BMIcalculater" */;
 			buildPhases = (
 				2FA15CB31C55439300DC67EE /* Sources */,
 				2FA15CB41C55439300DC67EE /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = BMIcounter;
+			name = BMIcalculater;
 			productName = BMIcounter;
-			productReference = 2FA15CB71C55439300DC67EE /* BMIcounter.app */;
+			productReference = 2FA15CB71C55439300DC67EE /* BMIcalculater.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2FA15CCA1C55439300DC67EE /* BMIcounterTests */ = {
+		2FA15CCA1C55439300DC67EE /* BMIcalculaterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FA15CE21C55439300DC67EE /* Build configuration list for PBXNativeTarget "BMIcounterTests" */;
+			buildConfigurationList = 2FA15CE21C55439300DC67EE /* Build configuration list for PBXNativeTarget "BMIcalculaterTests" */;
 			buildPhases = (
 				2FA15CC71C55439300DC67EE /* Sources */,
 				2FA15CC81C55439300DC67EE /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				2FA15CCD1C55439300DC67EE /* PBXTargetDependency */,
 			);
-			name = BMIcounterTests;
+			name = BMIcalculaterTests;
 			productName = BMIcounterTests;
-			productReference = 2FA15CCB1C55439300DC67EE /* BMIcounterTests.xctest */;
+			productReference = 2FA15CCB1C55439300DC67EE /* BMIcalculater.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2FA15CD51C55439300DC67EE /* BMIcounterUITests */ = {
+		2FA15CD51C55439300DC67EE /* BMIcalculaterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FA15CE51C55439300DC67EE /* Build configuration list for PBXNativeTarget "BMIcounterUITests" */;
+			buildConfigurationList = 2FA15CE51C55439300DC67EE /* Build configuration list for PBXNativeTarget "BMIcalculaterUITests" */;
 			buildPhases = (
 				2FA15CD21C55439300DC67EE /* Sources */,
 				2FA15CD31C55439300DC67EE /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				2FA15CD81C55439300DC67EE /* PBXTargetDependency */,
 			);
-			name = BMIcounterUITests;
+			name = BMIcalculaterUITests;
 			productName = BMIcounterUITests;
-			productReference = 2FA15CD61C55439300DC67EE /* BMIcounterUITests.xctest */;
+			productReference = 2FA15CD61C55439300DC67EE /* BMIcalculater.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2FA15CB21C55439300DC67EE /* Build configuration list for PBXProject "BMIcounter" */;
+			buildConfigurationList = 2FA15CB21C55439300DC67EE /* Build configuration list for PBXProject "BMIcalculater" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2FA15CB61C55439300DC67EE /* BMIcounter */,
-				2FA15CCA1C55439300DC67EE /* BMIcounterTests */,
-				2FA15CD51C55439300DC67EE /* BMIcounterUITests */,
+				2FA15CB61C55439300DC67EE /* BMIcalculater */,
+				2FA15CCA1C55439300DC67EE /* BMIcalculaterTests */,
+				2FA15CD51C55439300DC67EE /* BMIcalculaterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FA15CBD1C55439300DC67EE /* ViewController.swift in Sources */,
+				2FA15CFF1C5555C900DC67EE /* ViewController.swift in Sources */,
 				2FA15CBB1C55439300DC67EE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,12 +285,12 @@
 /* Begin PBXTargetDependency section */
 		2FA15CCD1C55439300DC67EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2FA15CB61C55439300DC67EE /* BMIcounter */;
+			target = 2FA15CB61C55439300DC67EE /* BMIcalculater */;
 			targetProxy = 2FA15CCC1C55439300DC67EE /* PBXContainerItemProxy */;
 		};
 		2FA15CD81C55439300DC67EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2FA15CB61C55439300DC67EE /* BMIcounter */;
+			target = 2FA15CB61C55439300DC67EE /* BMIcalculater */;
 			targetProxy = 2FA15CD71C55439300DC67EE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -405,7 +405,7 @@
 				INFOPLIST_FILE = BMIcounter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yangisee.BMIcounter;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BMIcalculater;
 			};
 			name = Debug;
 		};
@@ -416,7 +416,7 @@
 				INFOPLIST_FILE = BMIcounter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yangisee.BMIcounter;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BMIcalculater;
 			};
 			name = Release;
 		};
@@ -427,8 +427,8 @@
 				INFOPLIST_FILE = BMIcounterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yangisee.BMIcounterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMIcounter.app/BMIcounter";
+				PRODUCT_NAME = BMIcalculater;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMIcalculater.app/BMIcalculater";
 			};
 			name = Debug;
 		};
@@ -439,8 +439,8 @@
 				INFOPLIST_FILE = BMIcounterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yangisee.BMIcounterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMIcounter.app/BMIcounter";
+				PRODUCT_NAME = BMIcalculater;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMIcalculater.app/BMIcalculater";
 			};
 			name = Release;
 		};
@@ -450,7 +450,7 @@
 				INFOPLIST_FILE = BMIcounterUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yangisee.BMIcounterUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BMIcalculater;
 				TEST_TARGET_NAME = BMIcounter;
 				USES_XCTRUNNER = YES;
 			};
@@ -462,7 +462,7 @@
 				INFOPLIST_FILE = BMIcounterUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yangisee.BMIcounterUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BMIcalculater;
 				TEST_TARGET_NAME = BMIcounter;
 				USES_XCTRUNNER = YES;
 			};
@@ -471,7 +471,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2FA15CB21C55439300DC67EE /* Build configuration list for PBXProject "BMIcounter" */ = {
+		2FA15CB21C55439300DC67EE /* Build configuration list for PBXProject "BMIcalculater" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2FA15CDD1C55439300DC67EE /* Debug */,
@@ -480,7 +480,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2FA15CDF1C55439300DC67EE /* Build configuration list for PBXNativeTarget "BMIcounter" */ = {
+		2FA15CDF1C55439300DC67EE /* Build configuration list for PBXNativeTarget "BMIcalculater" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2FA15CE01C55439300DC67EE /* Debug */,
@@ -488,7 +488,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		2FA15CE21C55439300DC67EE /* Build configuration list for PBXNativeTarget "BMIcounterTests" */ = {
+		2FA15CE21C55439300DC67EE /* Build configuration list for PBXNativeTarget "BMIcalculaterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2FA15CE31C55439300DC67EE /* Debug */,
@@ -496,7 +496,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		2FA15CE51C55439300DC67EE /* Build configuration list for PBXNativeTarget "BMIcounterUITests" */ = {
+		2FA15CE51C55439300DC67EE /* Build configuration list for PBXNativeTarget "BMIcalculaterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2FA15CE61C55439300DC67EE /* Debug */,

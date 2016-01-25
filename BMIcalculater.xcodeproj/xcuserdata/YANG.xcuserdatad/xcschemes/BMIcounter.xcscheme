@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2FA15CB61C55439300DC67EE"
-               BuildableName = "BMIcounter.app"
-               BlueprintName = "BMIcounter"
-               ReferencedContainer = "container:BMIcounter.xcodeproj">
+               BuildableName = "BMIcalculater.app"
+               BlueprintName = "BMIcalculater"
+               ReferencedContainer = "container:BMIcalculater.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2FA15CCA1C55439300DC67EE"
-               BuildableName = "BMIcounterTests.xctest"
-               BlueprintName = "BMIcounterTests"
-               ReferencedContainer = "container:BMIcounter.xcodeproj">
+               BuildableName = "BMIcalculater.xctest"
+               BlueprintName = "BMIcalculaterTests"
+               ReferencedContainer = "container:BMIcalculater.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2FA15CD51C55439300DC67EE"
-               BuildableName = "BMIcounterUITests.xctest"
-               BlueprintName = "BMIcounterUITests"
-               ReferencedContainer = "container:BMIcounter.xcodeproj">
+               BuildableName = "BMIcalculater.xctest"
+               BlueprintName = "BMIcalculaterUITests"
+               ReferencedContainer = "container:BMIcalculater.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2FA15CB61C55439300DC67EE"
-            BuildableName = "BMIcounter.app"
-            BlueprintName = "BMIcounter"
-            ReferencedContainer = "container:BMIcounter.xcodeproj">
+            BuildableName = "BMIcalculater.app"
+            BlueprintName = "BMIcalculater"
+            ReferencedContainer = "container:BMIcalculater.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2FA15CB61C55439300DC67EE"
-            BuildableName = "BMIcounter.app"
-            BlueprintName = "BMIcounter"
-            ReferencedContainer = "container:BMIcounter.xcodeproj">
+            BuildableName = "BMIcalculater.app"
+            BlueprintName = "BMIcalculater"
+            ReferencedContainer = "container:BMIcalculater.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2FA15CB61C55439300DC67EE"
-            BuildableName = "BMIcounter.app"
-            BlueprintName = "BMIcounter"
-            ReferencedContainer = "container:BMIcounter.xcodeproj">
+            BuildableName = "BMIcalculater.app"
+            BlueprintName = "BMIcalculater"
+            ReferencedContainer = "container:BMIcalculater.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
