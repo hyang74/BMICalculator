@@ -104,8 +104,16 @@ class ViewController: UIViewController{
                     }
                 else
                     {
-                        barr.text = "If you would like to give details above,\n this app can help you to impove your health"
-                        suggest.text = " "
+                        if (counter == 4)
+                        {
+                            barr.text = "If you would like to give details above,\n this app can help you to impove your health"
+                            suggest.text = " "
+                        }
+                        else
+                        {
+                            barr.text = "Gender is not selected"
+                            suggest.text = " "
+                        }
                     }
                 }
             }
@@ -132,13 +140,23 @@ class ViewController: UIViewController{
                 }
                 else
                 {
-                    barr.text = "If you would like to give details above,\n this app can help you to impove your health"
-                    suggest.text = " "
+                    if (counter == 4)
+                    {
+                        barr.text = "If you would like to give details above,\n this app can help you to impove your health"
+                        suggest.text = " "
                     }
+                    else
+                    {
+                        barr.text = "Gender is not selected"
+                        suggest.text = " "
+                    }
+                }
             }
             
         }
         }
+    
+    
     var bminum:Double = 0.0
     @IBAction func calculate(sender: AnyObject) {
         if (a != 1)
@@ -172,7 +190,9 @@ class ViewController: UIViewController{
         }
         else
         {
+            counter = 3
             barr.text = "Gender is not selected"
+            suggest.text = " "
         }
     }
     
